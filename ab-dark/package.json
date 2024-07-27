@@ -1,0 +1,22 @@
+{
+  "name": "ab-dark",
+  "displayName": "ab-dark-color-theme",
+  "description": "Best dark color theme.",
+  "version": "1.0.3",
+  "publisher": "ABABIL",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "ab-dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ab-dark-color-theme.json"
+      }
+    ]
+  }
+}
